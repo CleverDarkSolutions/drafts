@@ -1,0 +1,88 @@
+body
+{
+  background: #323232;
+  user-select: none;
+}
+
+.border
+{
+  width: 800px;
+  height: 800px;
+  border: 100px solid;
+  border-image: url('border.jpg') 1000 round;
+}
+
+.blackSquare
+{
+  width: 100px;
+  height: 100px;
+  float: left;
+  background: #663500;
+}
+
+.whiteSquare
+{
+  width: 100px;
+  height: 100px;
+  float: left;
+  background: #fff3e6;
+}
+
+.blackPawn
+{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background: #663500;
+}
+
+.whitePawn
+{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background: #663500;
+}
+
+.addpawn
+{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+.horizontalAxis
+{
+  font-size: 40px;
+  word-spacing: 64px;
+  color: white;
+  position: absolute;
+  top: 50px;
+  left: 143px;
+}
+
+.verticalAxis
+{
+  font-size: 40px;
+  width: 40px;
+  color: white;
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  line-height: 100px;
+}
+
+.hoverMove
+{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: yellow;
+}
+
+#hover
+{
+  width: 800px;
+  height: 800px;
+  position: absolute;
+}
